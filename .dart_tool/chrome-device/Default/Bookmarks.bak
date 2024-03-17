@@ -1,0 +1,380 @@
+{
+   "checksum": "61a4646a35871c94fabf912f5788e5a7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13234004661237434",
+            "date_last_used": "0",
+            "guid": "39322e79-cb12-47fc-b82a-dff331e47561",
+            "id": "20",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13234004661239339",
+            "date_last_used": "13338976838058013",
+            "guid": "75760c00-b91e-452e-af9b-89b82cc28ce3",
+            "id": "21",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13234004665929293",
+            "date_last_used": "0",
+            "guid": "bc2a52c4-bfa3-4c81-92ba-062f84185553",
+            "id": "22",
+            "name": "Translate",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         }, {
+            "date_added": "13305724263568375",
+            "date_last_used": "13353498585167877",
+            "guid": "aef6b1fe-853e-4dda-8b51-a199db3eebc3",
+            "id": "23",
+            "name": "Sidebar navigation for Dashboard by Tran Mau Tri Tam ✪ for UI8 on Dribbble",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://dribbble.com/shots/16271760-Sidebar-navigation-for-Dashboard"
+         }, {
+            "date_added": "13354901558051874",
+            "date_last_used": "13354967313709696",
+            "guid": "10d1d0da-eb3a-4e4a-a74c-c88f406f8dee",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Calendar – Figma",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://www.figma.com/file/x00isT6CwJ4nXszaW0iEzQ/Calendar?type=design&node-id=150-648&mode=design&t=PvQ6eVpqXkBV0nS7-0"
+         }, {
+            "date_added": "13323344938462627",
+            "date_last_used": "13343903714026693",
+            "guid": "1a31c6c3-fd8a-4b76-bf76-19a15e1923ae",
+            "id": "24",
+            "name": "MPAY-WEB - Google Sheets",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1ZG8m-OUXx1P2uzHY9z8IiVjDVRXFBEm5Aj7h1G9ELuU/edit#gid=1141161544"
+         }, {
+            "date_added": "13324534344778069",
+            "date_last_used": "13326187693996357",
+            "guid": "9568c762-9297-45ec-92ae-32832b92a876",
+            "id": "25",
+            "name": "OTP dev",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "http://mobile.mobifonepay.telsoft.vn:8000/v1/tools/otp"
+         }, {
+            "date_added": "13325572617084082",
+            "date_last_used": "13336730419921821",
+            "guid": "fe447b64-41b0-4d2a-932d-2a95a83064b7",
+            "id": "26",
+            "name": "Thư - Mai Vinh Quang - Outlook",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://outlook.office365.com/mail/inbox/id/AAQkADQ5NTQ4NmEzLTk0ZTMtNGQ0Ni1iZjk4LWI2MDU1YTQyOGYyZQAQAPrcDwyQkmdKoQngICH8XzU%3D/sxs/AAMkADQ5NTQ4NmEzLTk0ZTMtNGQ0Ni1iZjk4LWI2MDU1YTQyOGYyZQBGAAAAAABmxHbGE4WXTbEzuuUrNBs0BwDxLUhWdv84S7ESHq09%2BQ1DAAAAAAEMAADxLUhWdv84S7ESHq09%2BQ1DAAQRaiQKAAABEgAQAMHFCJ7WcU1ElkmCBh7h9Mw%3D"
+         }, {
+            "date_added": "13335266845881579",
+            "date_last_used": "0",
+            "guid": "9e391f3e-16a3-4263-9c50-e9e6301dfe48",
+            "id": "27",
+            "name": "MobiFone Money API for Mobile/Web Application",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "http://mobile.mm-uat.telsoft.vn/v1/docs#API-311"
+         }, {
+            "date_added": "13337254212929684",
+            "date_last_used": "13342782495085489",
+            "guid": "b400b99b-5d6b-4e92-871b-431cd1bf5414",
+            "id": "28",
+            "name": "Quỹ phòng Hải Phòng - Google Trang tính",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1yuKAY7hmIp0NKrU0u0Qj2fD7d7zqDDrjcTSb1_Z4zqU/edit#gid=0"
+         }, {
+            "date_added": "13336112740026031",
+            "date_last_used": "13341463779747454",
+            "guid": "c6637f4a-41d4-47e0-af7c-cacb534cb1a0",
+            "id": "29",
+            "name": "MBF-DCB - Google Sheets",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1MP68L6EyzypTMfmAnwA4KxscWLhgg0def3szGKSZXVo/edit#gid=0"
+         }, {
+            "date_added": "13338553233798587",
+            "date_last_used": "0",
+            "guid": "1abd3200-1f65-4752-b6d4-90c29858d052",
+            "id": "30",
+            "name": "Bổ sung tính năng trên hệ thống DCB GW.xlsx - Google Sheets",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/17uXXpuVuSRr297AORCfJiJ2L3c4846m4/edit#gid=1689253029"
+         }, {
+            "date_added": "13339495147927322",
+            "date_last_used": "0",
+            "guid": "42666e93-7d0e-4c29-a20c-d5f34210be72",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "1z0-071 Exam – Free Actual Q&As, Page 1 | ExamTopics",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://www.examtopics.com/exams/oracle/1z0-071/view/1/"
+         }, {
+            "date_added": "13344406987954783",
+            "date_last_used": "0",
+            "guid": "dcd6fdf4-df21-4efb-a080-fef2f6ae3ca0",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MobiFone Money API for Mobile/Web Application",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "http://web.mobifonepay.telsoft.vn:8000/v1/docs#API-167"
+         }, {
+            "date_added": "13347946782200952",
+            "date_last_used": "0",
+            "guid": "d54d0af0-af33-4715-a460-fd56c9e3b123",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Untitled document - Google Docs",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/1d0h7U-fUQY-YBdOIAeAyfGxm6OdTdHsvEVxvN-cNVjg/edit"
+         }, {
+            "date_added": "13348038441369272",
+            "date_last_used": "0",
+            "guid": "c5dfe060-ebc4-481b-bdac-e49fcc40b573",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Some keys for testing - jetbra.in",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://gateway.pinata.cloud/ipfs/bafybeia4nrbuvpfd6k7lkorzgjw3t6totaoko7gmvq5pyuhl2eloxnfiri/"
+         }, {
+            "date_added": "13354599229350822",
+            "date_last_used": "0",
+            "guid": "71552be2-c23a-4b26-9f39-dbfbcd79ee64",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gradient Backgrounds – 🌈 The Best Gradient Sites All in One Place",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://cssgradient.io/gradient-backgrounds/"
+         }, {
+            "date_added": "13354823442936739",
+            "date_last_used": "0",
+            "guid": "ec707f83-e473-4853-b96f-b620f604fd7d",
+            "id": "36",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Cryptos - Cryptocurrency Template",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://www.mutationmedia.net/CRYPTOS/?storefront=envato-elements"
+         }, {
+            "date_added": "13354023364080255",
+            "date_last_used": "0",
+            "guid": "ab3df05f-9847-431d-bd25-ee92ef700161",
+            "id": "42",
+            "name": "Home.vn",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "http://home.vn/wf"
+         } ],
+         "date_added": "13354859196582764",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13231398159965341",
+                  "date_last_used": "0",
+                  "guid": "7b9dda55-1e12-44fc-a45b-49e34b783f81",
+                  "id": "11",
+                  "name": "Biểu thức trong SQL | 79 bài học SQL hay nhất",
+                  "show_icon": false,
+                  "source": "unknown",
+                  "type": "url",
+                  "url": "https://vietjack.com/sql/bieu_thuc_trong_sql.jsp"
+               }, {
+                  "date_added": "13231398159965341",
+                  "date_last_used": "0",
+                  "guid": "2dd0986b-002b-4889-8ca1-918df1017429",
+                  "id": "12",
+                  "name": "Cú pháp SQL cơ bản",
+                  "show_icon": false,
+                  "source": "unknown",
+                  "type": "url",
+                  "url": "https://vietjack.com/sql/cu_phap_sql_co_ban.jsp"
+               }, {
+                  "date_added": "13231398159965341",
+                  "date_last_used": "0",
+                  "guid": "f234176f-2388-4a69-929c-e0626e3a6be2",
+                  "id": "13",
+                  "name": "Messenger",
+                  "show_icon": false,
+                  "source": "unknown",
+                  "type": "url",
+                  "url": "https://www.facebook.com/messages/t/2730043097125248"
+               }, {
+                  "date_added": "13231398159965341",
+                  "date_last_used": "0",
+                  "guid": "fe41dc7b-1cab-401e-9cdf-52839dab4aa1",
+                  "id": "14",
+                  "name": "Sử dụng JOIN trong SQLite | 54 bài học SQLite miễn phí hay nhất",
+                  "show_icon": false,
+                  "source": "unknown",
+                  "type": "url",
+                  "url": "https://vietjack.com/sqlite/su_dung_join_trong_sqlite.jsp"
+               }, {
+                  "date_added": "13247686052776576",
+                  "date_last_used": "0",
+                  "guid": "92a279ac-9451-4aba-9f5a-90ff8d192ba7",
+                  "id": "15",
+                  "name": "Shopee Việt Nam | Mua và Bán Trên Ứng Dụng Di Động Hoặc Website",
+                  "show_icon": false,
+                  "source": "unknown",
+                  "type": "url",
+                  "url": "https://shopee.vn/?gclid=Cj0KCQjwk8b7BRCaARIsAARRTL7tazIq0kawxHR3i8wQ5Y8eGM8FDGowtcOcvT4kZ9p8k5_ju2JRh6AaAknuEALw_wcB"
+               }, {
+                  "date_added": "13250516434131615",
+                  "date_last_used": "0",
+                  "guid": "1473f0d2-32ff-42f4-b9ac-7c0902795bc2",
+                  "id": "16",
+                  "name": "Độ ưu tiên trong CSS - YouTube",
+                  "show_icon": false,
+                  "source": "unknown",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=AgZ0PX28bnA&list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz&index=11&ab_channel=F8Official"
+               } ],
+               "date_added": "13235712013083185",
+               "date_last_used": "0",
+               "date_modified": "13250516434131615",
+               "guid": "b3351c9f-afef-4c33-9b74-72bc24cf16e2",
+               "id": "10",
+               "name": "Group 1",
+               "source": "unknown",
+               "type": "folder"
+            } ],
+            "date_added": "13235712013082279",
+            "date_last_used": "0",
+            "date_modified": "13235712013082279",
+            "guid": "83251cf1-ee30-4234-b1e2-33fc54acb8c3",
+            "id": "9",
+            "name": "Tabs set aside",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13321386721264532",
+            "date_last_used": "0",
+            "date_modified": "13321386721264532",
+            "guid": "c0171dc3-dc2f-4f04-8341-2e72771f8198",
+            "id": "17",
+            "name": "Other Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "0",
+               "date_last_used": "0",
+               "guid": "bd2230d5-5f49-4250-8d36-ce83a8ca4a95",
+               "id": "19",
+               "name": "Tải xuống Instagram Ảnh và Video trực tuyến - InstaSave",
+               "show_icon": false,
+               "source": "unknown",
+               "type": "url",
+               "url": "https://instasave.xyz/"
+            } ],
+            "date_added": "13321386721264551",
+            "date_last_used": "0",
+            "date_modified": "13321386721264551",
+            "guid": "b7c60d15-05b9-4130-910f-51add24c5d5c",
+            "id": "18",
+            "name": "Synced Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13354859196582766",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13181200519988241",
+            "date_last_used": "0",
+            "guid": "47c84dc8-2cea-4424-95b8-96b3a5e59f3d",
+            "id": "7",
+            "name": "Ôn lại Logic mệnh đề – Dainganxanh's Blog",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://www.google.com.vn/amp/s/dainganxanh.wordpress.com/2011/08/18/on-l%E1%BA%A1i-logic-m%E1%BB%87nh-d%E1%BB%81/amp/"
+         }, {
+            "date_added": "13182854858804314",
+            "date_last_used": "0",
+            "guid": "ffa277d6-f85e-4e98-ad94-4a4d92c7aa23",
+            "id": "8",
+            "name": "Tải xuống Instagram Ảnh và Video trực tuyến - InstaSave",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://instasave.xyz/"
+         } ],
+         "date_added": "13354859196582767",
+         "date_last_used": "0",
+         "date_modified": "13182854858804314",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

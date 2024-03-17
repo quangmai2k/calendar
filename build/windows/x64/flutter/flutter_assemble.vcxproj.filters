@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Quang\calendar\calendar\build\windows\x64\CMakeFiles\963ba56c43cc97f0c483ea6add756b83\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Quang\calendar\calendar\build\windows\x64\CMakeFiles\ea9617b38564a40ed5a676196075009a\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Quang\calendar\calendar\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\Quang\calendar\calendar\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1C3233BE-DA10-3F9D-8D4E-88300B1E4B07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

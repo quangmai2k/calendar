@@ -1,0 +1,10 @@
+^H:\QUANG\CALENDAR\CALENDAR\BUILD\WINDOWS\X64\CMAKEFILES\EE711D5743ED71C43C334588C5B9BAC6\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

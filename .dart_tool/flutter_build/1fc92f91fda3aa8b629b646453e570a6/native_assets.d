@@ -1,0 +1,1 @@
+ H:\\Quang\\calendar\\calendar\\.dart_tool\\flutter_build\\1fc92f91fda3aa8b629b646453e570a6\\native_assets.yaml: 
