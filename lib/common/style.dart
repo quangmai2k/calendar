@@ -1,24 +1,44 @@
 import 'package:flutter/material.dart';
 
+const sfProFont = "SFPro";
+
 //Style on start screen
 const textStartScreen28 =
-    TextStyle(fontFamily: "SFPro", fontSize: 28, fontWeight: FontWeight.w700);
+    TextStyle(fontFamily: sfProFont, fontSize: 28, fontWeight: FontWeight.w700);
 const textStartScreen32 =
-    TextStyle(fontFamily: "SFPro", fontSize: 32, fontWeight: FontWeight.w700);
+    TextStyle(fontFamily: sfProFont, fontSize: 32, fontWeight: FontWeight.w700);
 const textBtnStartScreen1 = TextStyle(
-    fontFamily: "SFPro",
+    fontFamily: sfProFont,
     fontSize: 20,
     fontWeight: FontWeight.w500,
     color: Colors.white);
 const textBtnStartScreen2 = TextStyle(
-    fontFamily: "SFPro",
+    fontFamily: sfProFont,
     fontSize: 20,
     fontWeight: FontWeight.w700,
     color: Colors.white);
 const textCalendar = TextStyle(
-    fontFamily: "SFPro",
+    fontFamily: sfProFont,
     fontSize: 17,
     fontWeight: FontWeight.w700,
     color: Colors.black);
+const textBtnNoActive =
+    TextStyle(fontFamily: sfProFont, fontSize: 12, color: Colors.black26);
+ButtonStyle bgBtnActive = TextButton.styleFrom(
+    minimumSize: Size.zero,
+    padding: const EdgeInsets.all(7),
+    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    backgroundColor: Colors.black12);
+
+ButtonStyle bgBtnNoActive = TextButton.styleFrom(
+  minimumSize: Size.zero,
+  padding: const EdgeInsets.all(7),
+  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+);
+const textBtnActive = TextStyle(
+  fontFamily: sfProFont,
+  fontSize: 12,
+  color: Colors.black,
+);
 
 const paddingBox = EdgeInsets.all(20);

@@ -1,4 +1,4 @@
-import 'package:calendar/ui/app_start.dart';
+import 'package:calendar/ui/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: StartScreen(),
+      body: MainScreen(),
     );
   }
 }
