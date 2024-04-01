@@ -44,6 +44,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "ffi",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///C:/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -51,9 +57,9 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.1",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     },
     {
       "name": "flutter_test",
@@ -66,6 +72,12 @@
       "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "leak_tracker",
@@ -116,10 +128,52 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "simple_gesture_detector",
-      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/simple_gesture_detector-0.2.1",
+      "name": "path_provider",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_android-2.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider_foundation",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_foundation-2.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_platform_interface-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider_windows",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "sky_engine",
@@ -132,6 +186,30 @@
       "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "sqflite",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite-2.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "sqflite_common",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common-2.5.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "sqflite_common_ffi",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common_ffi-2.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "sqlite3",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/sqlite3-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "stack_trace",
@@ -153,25 +231,25 @@
     },
     {
       "name": "syncfusion_flutter_calendar",
-      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_calendar-25.1.35",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_calendar-25.1.37+1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_flutter_core",
-      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_core-25.1.35",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_core-25.1.37",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "syncfusion_flutter_datepicker",
-      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_datepicker-25.1.35",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_datepicker-25.1.37",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
-      "name": "table_calendar",
-      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/table_calendar-3.1.0",
+      "name": "synchronized",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/synchronized-3.1.0+1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -206,13 +284,25 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "win32",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/win32-5.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "xdg_directories",
+      "rootUri": "file:///C:/Users/sauzi/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "calendar",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-03-28T13:09:49.185310Z",
+  "generated": "2024-04-01T13:21:49.237967Z",
   "generator": "pub",
   "generatorVersion": "3.3.2"
 }
