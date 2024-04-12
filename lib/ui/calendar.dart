@@ -1,3 +1,4 @@
+import 'package:calendar/common/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:sqflite/sqflite.dart';
@@ -22,6 +23,7 @@ class _CalendarTestState extends State<CalendarTest> {
   static const String columnEnd = 'endTime';
   static const String columnColor = 'color';
   static const String columnIsAllDay = 'isAllDay';
+  late CalendarController controller;
   Future<void> addEvent() async {
     // Khởi tạo `databaseFactoryFfi`
     sqfliteFfiInit();
@@ -73,7 +75,7 @@ class _CalendarTestState extends State<CalendarTest> {
   final CalendarController _controller = CalendarController();
   String _dayFormat = 'EEE', _dateFormat = 'dd';
   void viewChanged(ViewChangedDetails viewChangedDetails) {
-    if (_controller.view == CalendarView.day) {
+    if (_controller.view == CalendarView.month) {
       SchedulerBinding.instance.addPostFrameCallback((Duration duration) {
         if (_dayFormat != 'EEEEE' || _dateFormat != 'dd') {
           setState(() {
@@ -100,46 +102,63 @@ class _CalendarTestState extends State<CalendarTest> {
 
   @override
   initState() {
+    controller = CalendarController();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    return SfCalendar(
-      view: CalendarView.month,
-      dataSource: MeetingDataSource(_getDataSource()),
-      cellBorderColor: Colors.transparent,
-      initialSelectedDate: DateTime.now(),
-      monthCellBuilder: (context, details) {
-        return Padding(
-          padding: const EdgeInsets.all(4.0), // Padding between cells
-          child: Container(
-            decoration: BoxDecoration(
-              borderRadius:
-                  BorderRadius.circular(8), // Optional: Border radius for cells
-              // border: Border.all(color: Colors.grey), // Border around cells
-            ),
-            child: Center(
+    return Container(
+      height: 450,
+      child: SfCalendar(
+        firstDayOfWeek: 1,
+        todayHighlightColor: Color(0xFFECBA99),
+        headerHeight: 0,
+        selectionDecoration: BoxDecoration(
+          color: Colors.transparent, // Đặt màu trong suốt cho ô được chọn
+          border: null, // Đường viền cho ô được chọn
+        ),
+        controller: controller,
+        view: CalendarView.month,
+        dataSource: MeetingDataSource(_getDataSource()),
+        cellBorderColor: Colors.transparent,
+        initialSelectedDate: DateTime.now(),
+        monthCellBuilder: (BuildContext context, MonthCellDetails details) {
+          if (details.date.day == controller.selectedDate!.day &&
+              details.date.month == controller.selectedDate!.month &&
+              details.date.year == controller.selectedDate!.year) {
+            return Stack(
+              children: [
+                Positioned.fill(
+                  child: Container(
+                    decoration: BoxDecoration(
+                        color: Color(0xFFECBA99), shape: BoxShape.circle),
+                  ),
+                ),
+                Center(
+                  child: Text(
+                    details.date.day.toString(),
+                    style: textCalendarInMonth,
+                  ),
+                ),
+              ],
+            );
+          } else {
+            return Center(
               child: Text(
                 details.date.day.toString(),
-                style: TextStyle(fontSize: 16),
+                style: textCalendarInMonth,
               ),
-            ),
-          ),
-        );
-      },
-      onViewChanged: viewChanged,
-      allowedViews: const [
-        CalendarView.day,
-        CalendarView.week,
-        CalendarView.workWeek,
-        CalendarView.month
-      ],
-      timeSlotViewSettings:
-          TimeSlotViewSettings(dateFormat: _dateFormat, dayFormat: _dayFormat),
-      monthViewSettings: const MonthViewSettings(
-          monthCellStyle: MonthCellStyle(),
-          appointmentDisplayMode: MonthAppointmentDisplayMode.indicator),
+            );
+          }
+        },
+        onViewChanged: viewChanged,
+        timeSlotViewSettings: TimeSlotViewSettings(
+            dateFormat: _dateFormat, dayFormat: _dayFormat),
+        monthViewSettings: const MonthViewSettings(
+            monthCellStyle: MonthCellStyle(),
+            appointmentDisplayMode: MonthAppointmentDisplayMode.indicator),
+      ),
     );
   }
 

@@ -20,6 +20,7 @@
             "description": "When a link is opened from Copilot on the web, the side pane will automatically open to continue the conversation",
             "title": "Automatically open Copilot in the side pane to continue conversations"
          },
+         "supported_platforms": [ "win", "mac", "linux" ],
          "triggering_config": {
             "signal_name": "IsUndersidePersistentChatLink",
             "signal_threshold": 0.5
@@ -52,7 +53,8 @@
          "settings_toggle": {
             "description": "When a PDF is opened in Microsoft Edge, the side pane will automatically open to assist you with your PDF",
             "title": "Automatically open Copilot in the side pane for PDFs"
-         }
+         },
+         "supported_platforms": [ "win", "mac", "linux" ]
       }, {
          "approved_channels": [ "canary", "dev", "beta", "stable" ],
          "enabled": false,
@@ -70,7 +72,8 @@
          "settings_toggle": {
             "description": "When you interact with Microsoft Bing's \"People also ask\" section, the side pane will automatically open to provide you with detailed information on common questions from other users.",
             "title": "Automatically open Copilot in the side pane when you interact with Microsoft Bing's \"People also ask\"."
-         }
+         },
+         "supported_platforms": [ "win", "mac", "linux" ]
       } ],
       "auto_show": {
          "enabled": true,
@@ -111,9 +114,9 @@
       "description": "Contextually relevant info for any page",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.10/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_hc.png/1.3.10/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.10/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.11/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_hc.png/1.3.11/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_blue.png/1.3.11/asset"
          }
       },
       "id": "cd4688a9-e888-48ea-ad81-76193d56b1be",
@@ -184,7 +187,7 @@
       "target": {
          "command": "discover_chat"
       },
-      "version": "1.3.10"
+      "version": "1.3.11"
    }, {
       "auto_show": {
          "enabled": true,
@@ -347,6 +350,30 @@
          "command": "discover"
       },
       "version": "1.6.8"
+   }, {
+      "default_locale": "en",
+      "description": "Your AI-Powered Content Writer",
+      "flights": [ "msEdgeComposeSidebar" ],
+      "icon": {
+         "raster_icon": {
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_compose_dark.png/1.0.0/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_compose_hc.png/1.0.0/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_compose_light.png/1.0.0/asset"
+         }
+      },
+      "id": "f40a17d3-0f1b-456e-b6e4-3d17f016a811",
+      "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtD7GjYVpZiieGjPYHEn7GGoY4vQOGZ16+ClS0AObZkBCO+buuGmzfnUiWyYa+rHrMIkNPsEFydIX68ytNfIDgPmNvwTLbPdKXKvR/fOt2e/HY5ezwhxxDU9wG4wav9NCeDRDqJvw5Wug0ubBlhYq7EAChLjRJRk3kMc15x+5qferxRw0MAbxYBLhhHIFcZPqcSzMsmaLt9WSu/ABUT1XvEa5AG8BXIqHn00Fhj0SESWZLUf+N4PBFCNdKoq8uA4EG9EoK25mozrydXiPuH63rv7888bRrdYmaLwaOqVKfsMeGvzxFUFnuUufLnJSsf8lO7HDE4LophuIjAUcdtY1TwIDAQAB",
+      "locales": [ "en" ],
+      "manifest_version": 3,
+      "name": "Compose",
+      "notifications": {
+         "enabled": false
+      },
+      "target": {
+         "url": "https://edgeservices.bing.com/edgesvc/compose?composedetachedux=1&clientscopes=chat,compose&lightschemeovr=1",
+         "url|theme:dark": "https://edgeservices.bing.com/edgesvc/compose?composedetachedux=1&clientscopes=chat,compose&darkschemeovr=1"
+      },
+      "version": "1.0.0"
    }, {
       "capabilities": {
          "resize_disabled": true
@@ -678,7 +705,7 @@
          },
          "icon": {
             "raster_icon": {
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_word.png/1.7.36/asset"
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_word.png/1.7.37/asset"
             }
          },
          "location": "hovercard",
@@ -691,7 +718,7 @@
          },
          "icon": {
             "raster_icon": {
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_excel.png/1.7.36/asset"
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_excel.png/1.7.37/asset"
             }
          },
          "location": "hovercard",
@@ -704,7 +731,7 @@
          },
          "icon": {
             "raster_icon": {
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_power_point.png/1.7.36/asset"
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_power_point.png/1.7.37/asset"
             }
          },
          "location": "hovercard",
@@ -726,9 +753,9 @@
       "description": "Access Microsoft 365 apps for free",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_dark.png/1.7.36/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_hc.png/1.7.36/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_light.png/1.7.36/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_dark.png/1.7.37/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_hc.png/1.7.37/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_light.png/1.7.37/asset"
          }
       },
       "id": "64be4f9b-3b81-4b6e-b354-0ba00d6ba485",
@@ -742,9 +769,9 @@
       "target": {
          "url": "edge://free-office/?sharedHeader=1",
          "url|flight:msEdgeHubAppOfficeCom": "https://www.office.com",
-         "url|flight:msEdgeHubAppOfficePlusChina|market:CN": "https://www.officeplus.cn/?sid=shoreline&endpoint=OPPC&source=OPCNshoreline"
+         "url|flight:msEdgeHubAppOfficePlusChina|market:CN": "https://www.officeplus.cn/?source=Edgeshoreline&origin=Edgeshoreline&sid=Edgeshoreline"
       },
-      "version": "1.7.36"
+      "version": "1.7.37"
    }, {
       "auto_open_v2": [ {
          "approved_channels": [ "canary", "dev", "beta", "stable" ],
@@ -1688,8 +1715,10 @@
       "auto_show": {
          "enabled": true,
          "fre_notification": {
-            "enabled": false,
-            "header": "Using Skype"
+            "enabled": true,
+            "header": "We opened the side pane so you can continue your conversation here",
+            "show_count": 3,
+            "text": "We opened the side pane so you can continue your conversation here"
          },
          "settings_description": "When you open a link from a chat in Skype, the side pane will automatically open to show the chat for context.",
          "settings_title": "Automatically open Skype chat links in the side pane"
@@ -1714,9 +1743,9 @@
       "disabled|device:xbox": true,
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_skype_dark.png/1.4.23/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_skype_hc.png/1.4.23/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_skype_light.png/1.4.23/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_skype_dark.png/1.5.24/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_skype_hc.png/1.5.24/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_skype_light.png/1.5.24/asset"
          }
       },
       "id": "439642fc-998d-4a64-8bb6-940ecaf6b60b",
@@ -1739,7 +1768,7 @@
          "url|flight:msEdgeHubAppSkypeCanary": "https://web.skype.com/?browsername=edge_canary_shoreline"
       },
       "trusted_domains": [ "live.com", "office.com", "microsoftonline.com", "microsoft.com", "office365.com", "sharepoint-df.com", "skype.com" ],
-      "version": "1.4.23"
+      "version": "1.5.24"
    }, {
       "default_locale": "en",
       "description": "Improve browser performance and save battery",
@@ -1808,24 +1837,27 @@
       },
       "default_locale": "en",
       "description": "Easily browse and find movies that fit your mood",
-      "flights": [ "msEdgeHubAppTheater" ],
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_maximal_dark.png/1.0.7/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_hc.png/1.0.7/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_maximal_light.png/1.0.7/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_maximal_dark.png/1.0.8/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_hc.png/1.0.8/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_maximal_light.png/1.0.8/asset"
          }
       },
       "id": "3458dfd2-bf1b-4d00-a6dd-a74a59d523c7",
       "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1GNijUy/yP0deh4a0zSno7UyNkxTzVUCYKgUD2NKh7jRbOjl3Mb5dOVkJtXOzUWLvyFKTFtCMjbFnrE3o392f8awVtOG7KlpZ6OdG56+PFr9PtYzxy1i5ybTWymCKkCNXqN/JzZFfpqJI/LO1TRALE7YCchHLCIHBoRZUK0zOlJ1Qv2LQDvn14nhuzXMl7I+G6uo4y5gczHM+ClSG9HI+YZUvn9cQXvooSRqyjnaP4qLmjiVy5+ZP8E9mRBRUzbNytBQ7CzQ+LEmIBzN/CBF8oBayHSri/6++8ljDTgIJnJKwl86ZB69Cmb6ctBHwyJLdknssbO9JZQwBZUq0uLdbwIDAQAB",
       "locales": [ "ar", "de", "en", "es", "fr", "id", "it", "ja", "ko", "pt", "ru", "zh_CN" ],
       "manifest_version": 3,
+      "market_constraints": {
+         "markets": [ "AU", "GB", "IE", "IN", "PH", "SG", "US", "ZA" ],
+         "type": "enable"
+      },
       "name": "Theater",
       "target": {
          "url": "https://www.bing.com/theater?features=theater",
          "url|locale:zh_CN": "https://cn.bing.com/theater?features=theater"
       },
-      "version": "1.0.7"
+      "version": "1.0.8"
    }, {
       "custom_actions": [ {
          "action": {
@@ -2040,6 +2072,7 @@
          "force_auto_open": false,
          "id": "c8ebbf64-e3b8-41d9-925f-4e3754151ff7",
          "lifetime": "tab",
+         "min_page_width_pixels": 1052,
          "non_visible_user_friendly_name": "MS Start Protocol Launch",
          "remember_context": {
             "time_to_live_sec": 86400
@@ -2124,8 +2157,8 @@
       "flights": [ "msEdgeHubAppStart", "msEdgeTransientAppAutoOpen" ],
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_dark.png/1.2.8/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_light.png/1.2.8/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_dark.png/1.2.9/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_light.png/1.2.9/asset"
          }
       },
       "id": "b7a8e9f2-6b0d-4c5b-ae7d-8a6e1f2c7a6f",
@@ -2141,7 +2174,7 @@
          "url": "https://www.msn.com/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub",
          "url|locale:zh_CN": "https://www.msn.cn/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub"
       },
-      "version": "1.2.8"
+      "version": "1.2.9"
    }, {
       "custom_actions": [ {
          "action": {

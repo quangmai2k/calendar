@@ -1,14 +1,17 @@
-2024/04/01-19:50:57.387 25d8 Reusing MANIFEST C:\Users\sauzi\AppData\Local\Temp\flutter_tools.277e2365\flutter_tools_chrome_device.9fc567b6\Default\Session Storage/MANIFEST-000001
-2024/04/01-19:50:57.388 25d8 Recovering log #19
-2024/04/01-19:50:57.392 25d8 Reusing old log C:\Users\sauzi\AppData\Local\Temp\flutter_tools.277e2365\flutter_tools_chrome_device.9fc567b6\Default\Session Storage/000019.log 
-2024/04/01-19:50:57.400 25d8 Delete type=2 #3
-2024/04/01-19:50:57.400 25d8 Delete type=0 #3
-2024/04/01-19:50:57.400 25d8 Delete type=2 #4
-2024/04/01-19:50:57.400 25d8 Delete type=0 #4
-2024/04/01-19:50:57.400 25d8 Delete type=2 #5
-2024/04/01-19:50:57.400 25d8 Delete type=0 #7
-2024/04/01-19:50:57.400 25d8 Delete type=2 #8
-2024/04/01-19:50:57.400 25d8 Delete type=0 #9
-2024/04/01-19:50:57.401 25d8 Delete type=2 #10
-2024/04/01-19:50:57.401 25d8 Delete type=0 #12
-2024/04/01-19:50:57.401 25d8 Delete type=0 #16
+2024/04/12-23:08:33.267 2d18 Reusing MANIFEST C:\Users\sauzi\AppData\Local\Temp\flutter_tools.d74aa3c4\flutter_tools_chrome_device.4e7b380f\Default\Session Storage/MANIFEST-000001
+2024/04/12-23:08:33.272 2d18 Recovering log #19
+2024/04/12-23:08:33.276 2d18 Reusing old log C:\Users\sauzi\AppData\Local\Temp\flutter_tools.d74aa3c4\flutter_tools_chrome_device.4e7b380f\Default\Session Storage/000019.log 
+2024/04/12-23:08:33.277 2d18 Delete type=2 #3
+2024/04/12-23:08:33.277 2d18 Delete type=0 #3
+2024/04/12-23:08:33.277 2d18 Delete type=2 #4
+2024/04/12-23:08:33.277 2d18 Delete type=0 #4
+2024/04/12-23:08:33.277 2d18 Delete type=2 #5
+2024/04/12-23:08:33.277 2d18 Delete type=0 #7
+2024/04/12-23:08:33.278 2d18 Delete type=2 #8
+2024/04/12-23:08:33.278 2d18 Delete type=0 #9
+2024/04/12-23:08:33.279 2d18 Delete type=2 #10
+2024/04/12-23:08:33.279 2d18 Delete type=0 #12
+2024/04/12-23:08:33.279 2d18 Delete type=0 #16
+2024/04/12-23:13:23.161 7f0 Level-0 table #23: started
+2024/04/12-23:13:23.167 7f0 Level-0 table #23: 25498 bytes OK
+2024/04/12-23:13:23.170 7f0 Delete type=0 #19

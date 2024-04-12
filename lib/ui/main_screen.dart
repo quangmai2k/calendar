@@ -1,4 +1,5 @@
 import 'package:calendar/common/style.dart';
+import 'package:calendar/ui/new_event.dart';
 import 'package:flutter/material.dart';
 
 import 'calendar.dart';
@@ -64,7 +65,12 @@ class _MainScreenState extends State<MainScreen> {
                           height: 20,
                           image: AssetImage("assets/images/setting.png"))),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => NewEventScreen()));
+                    },
                     icon: const Image(
                         height: 17.5,
                         image: AssetImage("assets/images/add.png")),

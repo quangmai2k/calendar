@@ -24,6 +24,12 @@ const textCalendar = TextStyle(
     color: Colors.black);
 const textBtnNoActive =
     TextStyle(fontFamily: sfProFont, fontSize: 12, color: Colors.black26);
+
+const textCalendarInMonth = TextStyle(
+    fontFamily: sfProFont,
+    color: Colors.black,
+    fontSize: 12,
+    fontWeight: FontWeight.w400);
 ButtonStyle bgBtnActive = TextButton.styleFrom(
     minimumSize: Size.zero,
     padding: const EdgeInsets.all(7),
